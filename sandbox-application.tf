@@ -99,7 +99,7 @@ resource "google_container_node_pool" "primary_nodes" {
     auto_repair  = true
     auto_upgrade = true
   }
-  version = "1.27" # Specify a valid GKE version
+  # version = "1.27"
 }
 
 # --- 3. Kubernetes Provider Configuration ---
